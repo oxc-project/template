@@ -7,7 +7,7 @@ use_field_init_shorthand = true
 
 # All unstable features that we wish for
 # unstable_features = true
-# version = "Two"
+# style_edition = "2024"
 # Provide a cleaner impl order
 # reorder_impl_items = true
 # Provide a cleaner import sort order
