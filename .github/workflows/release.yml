@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.OXC_BOT_PAT }}
           persist-credentials: true
 
-      - uses: oxc-project/setup-rust@f03aedf4620c1d3aa169a2510e24787d362bbe0b # v1.0.8
+      - uses: oxc-project/setup-rust@83350c0ef69ec34f00be596f1cb9302179b9f43d # v1.0.9
 
       - uses: oxc-project/release-plz@44b98e8dda1a7783d4ec2ef66e2f37a3e8c1c759 # v1.0.4
         with:
